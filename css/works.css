@@ -1,0 +1,43 @@
+.intro {
+	background-color: black;
+	padding: 5vw 0;
+}
+
+.logo {
+	display: flex;
+	margin: auto;
+	width: 250px;
+	height: 100%;}
+
+.text-1 {
+	color: white;
+	margin: 5vw 20vw;
+	max-width: 1200px;
+	justify-content: center;
+	text-align: center;
+}
+.text-1 p {
+	font-family: "Avenir";
+	font-size: 12pt;
+}
+.text-1 h3 {
+	margin: 4vw 6vw 0;
+}
+
+.gifs{
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	justify-content: center;
+	max-width: 760px;
+	margin: auto;
+}
+.gifs img {
+	width: 250px;
+	height: 100%;
+	border: white 2px solid;
+}
+
+.influences {
+	background-color: black;
+	height: 30vw;
+}
