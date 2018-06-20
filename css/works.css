@@ -39,5 +39,25 @@
 
 .influences {
 	background-color: black;
-	height: 30vw;
+	width: 100vw;
+	height: auto;
+}
+
+.influences {
+	display: grid;
+	grid-template-columns: 10% 40% 40% 10%;
+	grid-template-areas:
+		". video video ."
+}
+
+.video-g {grid-area: video; margin: 5vw auto; width: 100%;}
+
+iframe .video-g {
+	margin: auto;
+}
+
+.video {
+	margin-right: auto;
+	margin-left: auto;
+	width: 50vw;
 }
