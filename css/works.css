@@ -19,10 +19,50 @@
 .text-1 p {
 	font-family: "Avenir";
 	font-size: 12pt;
+	color: white;
+	margin: 0;
 }
 .text-1 h3 {
-	margin: 4vw 6vw 0;
+	margin: 4vw 6vw;
 }
+
+.text-1 a {
+		width: 10vw;
+    border: solid 1px white;
+    margin: auto;}
+
+.ref {
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	margin: 0 3vw;
+}
+
+.titre-ref {
+margin-bottom: 10px;
+}
+
+.photos {
+	background-color: black;
+	display: grid;
+	padding: 5vw;
+	margin: auto;
+	width: 100%;
+	grid-template-columns: 10% 40% 40% 10%;
+	grid-template-rows: 50vw 5vw repeat(4, 20vw);
+	grid-template-areas:
+	"masks masks masks masks"
+	". . . ."
+	". geek blogueuse ."
+	". wesh teufeur ."
+	". hipster vegan .";
+}
+.masks {grid-area: masks; background-image: url("../img/masques.jpg"); background-size: cover; background-position: center; margin-bottom: 30px;}
+.geek {grid-area: geek; background-image: url("../img/geek.jpg"); background-size: cover; background-position: center; border: solid 1px white;}
+.wesh {grid-area: wesh; background-image: url("../img/wesh.jpg"); background-size: cover; background-position: center; border: solid 1px white;}
+.blogueuse {grid-area: blogueuse; background-image: url("../img/blogueuse.jpg"); background-size: cover; background-position: center; border: solid 1px white;}
+.teufeur {grid-area: teufeur; background-image: url("../img/teufeur.jpg"); background-size: cover; background-position: center; border: solid 1px white;}
+.hipster {grid-area: hipster; background-image: url("../img/hipster.jpg"); background-size: cover; background-position: center; border: solid 1px white;}
+.vegan {grid-area: vegan; background-image: url("../img/vegan.jpg"); background-size: cover; background-position: center; border: solid 1px white;}
 
 .gifs{
 	display: flex;
