@@ -68,7 +68,6 @@ margin-bottom: 10px;
 	display: flex;
 	-webkit-flex-flow: row wrap;
 	justify-content: center;
-	max-width: 760px;
 	margin: auto;
 }
 .gifs img {
